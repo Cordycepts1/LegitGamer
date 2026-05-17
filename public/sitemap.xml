@@ -20,4 +20,8 @@
     <loc>https://cordycepts1.github.io/LegitGamer/privacy.html</loc>
     <priority>0.3</priority>
   </url>
+  <url>
+    <loc>https://cordycepts1.github.io/LegitGamer/legal.html</loc>
+    <priority>0.3</priority>
+  </url>
 </urlset>

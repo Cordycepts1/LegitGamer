@@ -11,6 +11,7 @@ export default defineConfig({
         support: resolve(__dirname, "support.html"),
         work: resolve(__dirname, "work.html"),
         privacy: resolve(__dirname, "privacy.html"),
+        legal: resolve(__dirname, "legal.html"),
         thanks: resolve(__dirname, "thanks.html"),
       },
     },

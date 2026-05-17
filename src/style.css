@@ -385,6 +385,12 @@ h3 {
     url("https://images.unsplash.com/photo-1556761175-4b46a572b786?q=80&w=2070&auto=format&fit=crop");
 }
 
+.page-hero--legal {
+  background:
+    linear-gradient(90deg, rgba(24, 24, 24, 0.9) 0%, rgba(0, 58, 86, 0.76) 58%, rgba(0, 0, 0, 0.22) 100%),
+    url("https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=2070&auto=format&fit=crop");
+}
+
 .page-hero .eyebrow,
 .product-band .eyebrow,
 .support-band .eyebrow,
@@ -985,6 +991,22 @@ h3 {
 .policy-content a {
   color: var(--color-primary);
   font-weight: 700;
+}
+
+.legal-list {
+  display: grid;
+  gap: 0.85rem;
+  margin: 1rem 0 0;
+  padding-left: 1.2rem;
+  color: var(--color-muted);
+}
+
+.legal-list strong {
+  color: var(--color-ink);
+}
+
+.legal-list--links {
+  gap: 0.45rem;
 }
 
 .support-search {
