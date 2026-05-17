@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cordycepts1.github.io/LegitGamer/sitemap.xml
