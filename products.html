@@ -80,10 +80,11 @@
               Compare Gridkind Start, Grow, and Scale by business outcome, included features,
               launch readiness, support level, and upgrade path.
             </p>
-            <div class="hero__actions" aria-label="Product page actions">
-              <a class="button button--primary" href="#compare">Compare packages</a>
-              <a class="button button--secondary" href="./index.html#contact">Ask for advice</a>
-            </div>
+          <div class="hero__actions" aria-label="Product page actions">
+            <a class="button button--primary" href="#compare">Compare packages</a>
+            <a class="button button--secondary" href="#payments">Payment options</a>
+            <a class="button button--secondary" href="./index.html#contact">Ask for advice</a>
+          </div>
           </div>
 
           <div class="hero-panel" aria-label="Package starting prices">
@@ -229,6 +230,63 @@
                 </tr>
               </tbody>
             </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="payments" aria-labelledby="payments-title">
+        <div class="section-inner payment-layout">
+          <div class="payment-copy">
+            <p class="eyebrow">PayPal-ready checkout</p>
+            <h2 id="payments-title">Payment options are ready to connect once PayPal links are created.</h2>
+            <p>
+              Gridkind can accept secure PayPal checkout links for deposits,
+              project payments, and monthly hosting/support. The PayPal account
+              exists, but checkout links are not connected yet, so this panel
+              currently prepares a payment request instead of taking money.
+            </p>
+            <ul class="legal-list">
+              <li>PayPal checkout can support PayPal, eligible cards, and PayPal Pay Later options.</li>
+              <li>No card details are collected or stored on this website.</li>
+              <li>Final payment amounts are confirmed in writing before a payment link is sent.</li>
+            </ul>
+          </div>
+
+          <div class="payment-panel" data-payment-panel>
+            <div class="form-field">
+              <label for="payment-package">Choose payment type</label>
+              <select id="payment-package" data-payment-select>
+                <option value="start">Gridkind Start deposit</option>
+                <option value="grow">Gridkind Grow deposit</option>
+                <option value="scale">Gridkind Scale deposit</option>
+                <option value="support">Monthly hosting and support</option>
+                <option value="custom">Custom agreed project payment</option>
+              </select>
+            </div>
+
+            <div class="payment-summary" aria-live="polite" data-payment-summary>
+              <p class="package-card__label">Selected payment</p>
+              <h3>Gridkind Start deposit</h3>
+              <p>PayPal checkout link pending. Request the payment link and confirm the final scope before paying.</p>
+            </div>
+
+            <div class="payment-actions">
+              <a
+                class="button button--primary"
+                href="mailto:Maxcashgrid@gmail.com?subject=Payment%20link%20request%20-%20Gridkind%20Start%20deposit&body=Hi%20Gridkind%20Studio%2C%0A%0APlease%20send%20me%20the%20PayPal%20payment%20link%20for%20Gridkind%20Start%20deposit.%0A%0AMy%20name%3A%0AMy%20business%3A%0AProject%20notes%3A%0A"
+                data-payment-mailto
+              >
+                Request PayPal link
+              </a>
+              <button class="button button--outline" type="button" disabled data-payment-disabled>
+                PayPal checkout pending
+              </button>
+            </div>
+
+            <p class="payment-note">
+              The live PayPal button will be connected after the official PayPal payment links are created in the
+              Maxcashgrid PayPal Business account.
+            </p>
           </div>
         </div>
       </section>
